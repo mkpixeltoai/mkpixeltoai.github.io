@@ -439,28 +439,20 @@ button{ font-family: inherit; cursor: pointer; }
 }
 .btn-ghost:hover{ color: var(--color-gold-lux); }
 
-.hero-image-frame{ position: relative; width: 320px; height: 320px; }
-.hero-image-placeholder{
-  width: 100%; height: 100%;
-  border-radius: 50%;
-  background: linear-gradient(160deg, rgba(212,175,55,.16), rgba(192,192,192,.08));
-  border: 1px dashed var(--color-border-strong);
-  display: flex; flex-direction: column;
-  align-items: center; justify-content: center;
-  gap: .6rem;
-  color: rgba(232,232,232,.6);
+.hero-image-frame{
+    width: 380px;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
 }
-.hero-image-placeholder i{ font-size: 3rem; color: var(--color-gold-lux); }
-.hero-image-placeholder span{ font-family: var(--font-mono); font-size: .78rem; letter-spacing: .05em; }
-.hero-image-ring{
-   .hero-profile-image{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid #D4AF37;
-  box-shadow: 0 0 35px rgba(212,175,55,.35);
-  display: block;
+
+.hero-profile-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+}
 }
   position: absolute; inset: -20px;
   border-radius: 50%;
