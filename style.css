@@ -453,6 +453,15 @@ button{ font-family: inherit; cursor: pointer; }
 .hero-image-placeholder i{ font-size: 3rem; color: var(--color-gold-lux); }
 .hero-image-placeholder span{ font-family: var(--font-mono); font-size: .78rem; letter-spacing: .05em; }
 .hero-image-ring{
+   .hero-profile-image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #D4AF37;
+  box-shadow: 0 0 35px rgba(212,175,55,.35);
+  display: block;
+}
   position: absolute; inset: -20px;
   border-radius: 50%;
   border: 1px solid var(--color-border);
