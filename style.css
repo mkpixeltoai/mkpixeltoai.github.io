@@ -777,9 +777,11 @@ button{ font-family: inherit; cursor: pointer; }
 .case-study-details{
   max-height: 0;
   overflow: hidden;
-  transition: max-height var(--dur-med) ease, margin-top var(--dur-med) ease;
+  transition: max-height .5s ease, margin-top .5s ease;
 }
-.case-study-details.is-open{ max-height: 10000px; margin-top: 1.5rem; }
+.case-study-details.is-open{
+  margin-top: 1.5rem;
+ }
 .case-study-block{ margin-bottom: 1.15rem; }
 .case-study-block h4{
   font-family: var(--font-mono);
